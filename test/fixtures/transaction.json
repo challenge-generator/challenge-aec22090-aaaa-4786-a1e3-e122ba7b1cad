@@ -1,0 +1,139 @@
+{
+  "transactions": [
+    {
+      "id": "txn_001",
+      "userId": "user_123",
+      "items": [
+        {
+          "productId": "prod_001",
+          "productName": "Smartphone Pro X",
+          "quantity": 1,
+          "unitPrice": 999.99,
+          "subtotal": 999.99
+        },
+        {
+          "productId": "prod_003",
+          "productName": "Auriculares Wireless Pro",
+          "quantity": 2,
+          "unitPrice": 299.99,
+          "subtotal": 599.98
+        }
+      ],
+      "subtotal": 1599.97,
+      "tax": 159.99,
+      "shipping": 15.00,
+      "total": 1774.96,
+      "currency": "USD",
+      "status": "completed",
+      "paymentMethod": "credit_card",
+      "paymentCardLast4": "4242",
+      "shippingAddress": {
+        "street": "123 Main Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94102",
+        "country": "USA"
+      },
+      "billingAddress": {
+        "street": "123 Main Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94102",
+        "country": "USA"
+      },
+      "createdAt": "2024-01-15T10:30:00Z",
+      "updatedAt": "2024-01-15T10:35:00Z",
+      "completedAt": "2024-01-15T10:35:00Z"
+    },
+    {
+      "id": "txn_002",
+      "userId": "user_456",
+      "items": [
+        {
+          "productId": "prod_002",
+          "productName": "Laptop UltraSlim 15",
+          "quantity": 1,
+          "unitPrice": 1499.99,
+          "subtotal": 1499.99
+        }
+      ],
+      "subtotal": 1499.99,
+      "tax": 149.99,
+      "shipping": 0.00,
+      "total": 1649.98,
+      "currency": "USD",
+      "status": "pending",
+      "paymentMethod": "paypal",
+      "paymentEmail": "user@example.com",
+      "shippingAddress": {
+        "street": "456 Oak Avenue",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "billingAddress": {
+        "street": "456 Oak Avenue",
+        "city": "New York",
+        "state": "NY",
+        "zipCode": "10001",
+        "country": "USA"
+      },
+      "createdAt": "2024-01-16T14:20:00Z",
+      "updatedAt": "2024-01-16T14:20:00Z",
+      "completedAt": null
+    },
+    {
+      "id": "txn_003",
+      "userId": "user_789",
+      "items": [
+        {
+          "productId": "prod_004",
+          "productName": "Smartwatch Fitness",
+          "quantity": 1,
+          "unitPrice": 349.99,
+          "subtotal": 349.99
+        },
+        {
+          "productId": "prod_005",
+          "productName": "Tablet Graphics 12",
+          "quantity": 1,
+          "unitPrice": 799.99,
+          "subtotal": 799.99
+        }
+      ],
+      "subtotal": 1149.98,
+      "tax": 114.99,
+      "shipping": 25.00,
+      "total": 1289.97,
+      "currency": "USD",
+      "status": "failed",
+      "paymentMethod": "credit_card",
+      "paymentCardLast4": "1234",
+      "failureReason": "Payment declined by issuer",
+      "shippingAddress": {
+        "street": "789 Pine Road",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "98101",
+        "country": "USA"
+      },
+      "billingAddress": {
+        "street": "789 Pine Road",
+        "city": "Seattle",
+        "state": "WA",
+        "zipCode": "98101",
+        "country": "USA"
+      },
+      "createdAt": "2024-01-17T09:15:00Z",
+      "updatedAt": "2024-01-17T09:16:00Z",
+      "completedAt": null
+    }
+  ],
+  "pagination": {
+    "currentPage": 1,
+    "pageSize": 10,
+    "totalItems": 3,
+    "totalPages": 1
+  }
+}

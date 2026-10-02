@@ -1,0 +1,107 @@
+[
+  {
+    "id": "prod_001",
+    "name": "Smartphone Pro X",
+    "description": "Teléfono inteligente de última generación con pantalla AMOLED de 6.7 pulgadas",
+    "price": 999.99,
+    "currency": "USD",
+    "category": "electronics",
+    "stock": 50,
+    "imageUrl": "https://example.com/images/smartphone_pro_x.jpg",
+    "sku": "SPX-2024-001",
+    "brand": "TechBrand",
+    "rating": 4.5,
+    "reviewCount": 128,
+    "isAvailable": true,
+    "tags": ["smartphone", "electronics", "premium"],
+    "attributes": {
+      "color": "Midnight Black",
+      "storage": "256GB",
+      "ram": "12GB"
+    }
+  },
+  {
+    "id": "prod_002",
+    "name": "Laptop UltraSlim 15",
+    "description": "Portátil ultradelgada con procesador Intel Core i7 y pantalla 4K",
+    "price": 1499.99,
+    "currency": "USD",
+    "category": "electronics",
+    "stock": 25,
+    "imageUrl": "https://example.com/images/laptop_ultraslim.jpg",
+    "sku": "LUS-2024-002",
+    "brand": "TechBrand",
+    "rating": 4.8,
+    "reviewCount": 256,
+    "isAvailable": true,
+    "tags": ["laptop", "electronics", "work"],
+    "attributes": {
+      "color": "Silver",
+      "storage": "512GB SSD",
+      "ram": "16GB"
+    }
+  },
+  {
+    "id": "prod_003",
+    "name": "Auriculares Wireless Pro",
+    "description": "Auriculares con cancelación activa de ruido y batería de 30 horas",
+    "price": 299.99,
+    "currency": "USD",
+    "category": "accessories",
+    "stock": 100,
+    "imageUrl": "https://example.com/images/auriculares_pro.jpg",
+    "sku": "AWP-2024-003",
+    "brand": "AudioTech",
+    "rating": 4.6,
+    "reviewCount": 89,
+    "isAvailable": true,
+    "tags": ["audio", "wireless", "noise-cancelling"],
+    "attributes": {
+      "color": "White",
+      "batteryLife": "30 hours",
+      "connectivity": "Bluetooth 5.0"
+    }
+  },
+  {
+    "id": "prod_004",
+    "name": "Smartwatch Fitness",
+    "description": "Reloj inteligente con monitor de frecuencia cardíaca y GPS integrado",
+    "price": 349.99,
+    "currency": "USD",
+    "category": "wearables",
+    "stock": 75,
+    "imageUrl": "https://example.com/images/smartwatch_fitness.jpg",
+    "sku": "SWF-2024-004",
+    "brand": "FitTech",
+    "rating": 4.3,
+    "reviewCount": 167,
+    "isAvailable": true,
+    "tags": ["wearable", "fitness", "gps"],
+    "attributes": {
+      "color": "Black",
+      "waterResistance": "5ATM",
+      "batteryLife": "7 days"
+    }
+  },
+  {
+    "id": "prod_005",
+    "name": "Tablet Graphics 12",
+    "description": "Tableta gráfica profesional con stylus de precisión y pantalla 2K",
+    "price": 799.99,
+    "currency": "USD",
+    "category": "electronics",
+    "stock": 15,
+    "imageUrl": "https://example.com/images/tablet_graphics.jpg",
+    "sku": "TGR-2024-005",
+    "brand": "DrawTech",
+    "rating": 4.7,
+    "reviewCount": 54,
+    "isAvailable": true,
+    "tags": ["tablet", "graphics", "professional"],
+    "attributes": {
+      "color": "Space Gray",
+      "storage": "256GB",
+      "screenSize": "12.9 inches"
+    }
+  }
+]
